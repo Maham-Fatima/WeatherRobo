@@ -5,7 +5,7 @@ import speech_recognition as r
 
 if __name__ == '__main__':
 
-    API_KEY = "61a174b702c75cbba6972151d0093919"
+    API_KEY = "your API key"
     speaker = pyttsx3.init()  # initialize
     speaker.say("What is your city name")  # text to speak
     speaker.runAndWait()  # speak
